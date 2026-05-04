@@ -1,0 +1,16 @@
+{
+  "health_endpoint": "/ping",
+  "predict_endpoint": "/infer",
+  "port": 8080,
+  "health_response": {
+    "status": "operational",
+    "service": "PayFlow API"
+  },
+  "test_input": {
+    "txn_amount": 59019.7,
+    "merchant_risk_score": 0.6,
+    "is_international": 0,
+    "gateway_load": 0.4
+  },
+  "prediction": 2.065353165029031
+}

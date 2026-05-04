@@ -1,0 +1,18 @@
+{
+    "experiment_name": "payflow-processing-seconds",
+    "models": [
+        {
+            "name": "LinearRegression",
+            "mae": 0.35523679545340303,
+            "rmse": 0.4171174402875169
+        },
+        {
+            "name": "RandomForest",
+            "mae": 0.3946800000000001,
+            "rmse": 0.46274591300194107
+        }
+    ],
+    "best_model": "LinearRegression",
+    "best_metric_name": "mae",
+    "best_metric_value": 0.35523679545340303
+}

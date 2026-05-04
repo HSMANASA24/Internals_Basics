@@ -1,0 +1,13 @@
+{
+    "search_type": "grid",
+    "n_folds": 3,
+    "total_trials": 27,
+    "best_params": {
+        "max_depth": 5,
+        "min_samples_split": 2,
+        "n_estimators": 50
+    },
+    "best_mae": 0.36086733333333393,
+    "best_cv_mae": 0.5886989682539685,
+    "parent_run_name": "tuning-payflow"
+}
